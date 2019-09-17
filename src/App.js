@@ -47,7 +47,7 @@ class Filter extends Component {
 function App() {
   return (
     <div className="App">
-      <h1>Title</h1>
+      <h1 style={{ ...defaultStyle }}>Title</h1>
       <Aggregate />
       <Aggregate />
       <Filter />
